@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Weather from './Weather'
 
 
 class KioskView extends Component {
@@ -32,6 +33,7 @@ class KioskView extends Component {
       <div className="KioskView">
       <h1>{this.handleDay() === "AM" ? "GOOD MORNING!" : "GOOD EVENING"}</h1>
         <h3>{this.state.date.toLocaleTimeString()}</h3>
+        <Weather />
       </div>
     );
   }

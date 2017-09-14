@@ -7,6 +7,7 @@ class SignUp extends Component {
         <UserButton
           type="Create Account"
         />
+        <a href ="/auth/google">Google</a>
       </div>
     );
   }
